@@ -23,5 +23,5 @@ export default defineConfig({
 
 function getDatabaseId() {
   // TODO replace with your database ID
-  return "6198de3b-a806-4c30-992f-36b97de26463";
+  return "362b38b5-880d-4e2a-9b1a-a491298f18ee";
 }
