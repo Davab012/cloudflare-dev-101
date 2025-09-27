@@ -23,7 +23,7 @@ app.post('/', async (c) => {
   const { contents } = await c.req.json();
   if (!contents || typeof contents !== "string") return c.json({ message: "Bad Request" }, 400)
 
-  const doc = await createDoc(c.env, { contents });
+/*   const doc = await createDoc(c.env, { contents });
 
   const splitter = new RecursiveCharacterTextSplitter({
     chunkSize: 1024,
@@ -33,7 +33,8 @@ app.post('/', async (c) => {
   const chunks = await contextualizeChunks(c.env, contents, raw)
   await insertChunkVectors(c.env, { docId: doc.id, created: doc.created }, chunks);
 
-  return c.json(doc)
+  return c.json(doc) */
+  return c.json("a normal string")
 });
 
 app.post('/query', async (c) => {

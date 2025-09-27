@@ -17,7 +17,8 @@
     {
       "binding": "D1",
       "database_name": "contextual-rag",
-      "database_id": "6198de3b-a806-4c30-992f-36b97de26463"
+      "database_id": "362b38b5-880d-4e2a-9b1a-a491298f18ee",
+      "migrations_dir": "drizzle"
     }
   ],
   "ai": {
